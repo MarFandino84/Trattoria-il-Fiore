@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+     border: 45px solid black;
+      background-image: url(./el-sorprendente-truco-para-cocinar-la-pizza-y-que-te-quede-como-si-fuera-de-horno-de-lena-655x368.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;     
+      min-height: 100vh; 
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+h1 {
+      margin-bottom: 3.5em;
+      
+}
+label {
+      font-size: 1.5rem;
+      color: white;
+      
+}
+input {
+      text-align: center;
+      font-size: 1rem;
+}
+.container {
+     border: 1px solid whitesmoke;
+     background-color: transparent;
+     display: flex;
+     border-radius: 10px;
+     align-items: center;
+     flex-direction: column;
+     width: 28%; height: 80%;
+     
+}
+#resultado {
+     width: 50%; height:  50%;
+     background-color: transparent;
+     
+}
+h2, h3 {
+      background-color: transparent;
+      font-family: 'Times New Roman', Times, serif;
+      margin-top: 1em;
+      text-align: center;
+      font-style: italic;
+      color: aliceblue;
+}
+button {
+      width: 35%; height: 35%;
+      font-size: 2em;
+}
+button:hover {
+      background-color: burlywood;
+      scale: 1.05;
+}
